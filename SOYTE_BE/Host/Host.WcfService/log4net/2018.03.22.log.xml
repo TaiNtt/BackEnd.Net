@@ -1,0 +1,28 @@
+﻿08:54:01,527 [16] ERROR Host.WcfService.MainModule - A parameterless default constructor or one matching signature (System.Int64 Số thứ tự, System.String Số biên nhận, System.String Ngày nhận, System.String Ngày hẹn trả, System.String Lĩnh vực, System.String Thủ tục, System.String Họ tên người nộp, System.String Tên trạng thái hồ sơ, System.String Nội dung xử lý) is required for System.Data.DataRow materialization
+Extra Info: (null)
+08:55:56,244 [23] ERROR Host.WcfService.MainModule - Input array is longer than the number of columns in this table.
+Extra Info: (null)
+09:00:43,323 [23] ERROR Host.WcfService.MainModule - Input array is longer than the number of columns in this table.
+Extra Info: (null)
+09:06:34,501 [48] ERROR Host.WcfService.MainModule - Index was outside the bounds of the array.
+Extra Info: (null)
+09:07:01,869 [48] ERROR Host.WcfService.MainModule - Index was outside the bounds of the array.
+Extra Info: (null)
+09:08:38,500 [61] ERROR Host.WcfService.MainModule - Array was not a two-dimensional array.
+Extra Info: (null)
+09:11:58,411 [61] ERROR Host.WcfService.MainModule - A column named '1' already belongs to this DataTable.
+Extra Info: (null)
+09:14:24,971 [34] ERROR Host.WcfService.MainModule - Index was outside the bounds of the array.
+Extra Info: (null)
+09:15:15,703 [34] ERROR Host.WcfService.MainModule - Index was outside the bounds of the array.
+Extra Info: (null)
+11:05:13,265 [9] ERROR Host.WcfService.MainModule - Object reference not set to an instance of an object.
+Extra Info: (null)
+11:05:15,606 [9] ERROR Host.WcfService.MainModule - Object reference not set to an instance of an object.
+Extra Info: (null)
+11:05:42,728 [5] ERROR Host.WcfService.MainModule - Object reference not set to an instance of an object.
+Extra Info: (null)
+11:06:23,336 [5] ERROR Host.WcfService.MainModule - Object reference not set to an instance of an object.
+Extra Info: (null)
+11:09:38,291 [5] ERROR Host.WcfService.MainModule - Object reference not set to an instance of an object.
+Extra Info: (null)

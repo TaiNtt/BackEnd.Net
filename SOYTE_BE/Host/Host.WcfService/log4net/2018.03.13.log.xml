@@ -1,0 +1,12 @@
+﻿10:37:44,009 [40] ERROR Host.WcfService.MainModule - Invalid type owner for DynamicMethod.
+Extra Info: (null)
+10:38:12,606 [44] ERROR Host.WcfService.MainModule - Invalid type owner for DynamicMethod.
+Extra Info: (null)
+10:40:30,867 [44] ERROR Host.WcfService.MainModule - Invalid type owner for DynamicMethod.
+Extra Info: (null)
+10:40:41,606 [44] ERROR Host.WcfService.MainModule - Invalid type owner for DynamicMethod.
+Extra Info: (null)
+10:43:47,872 [56] ERROR Host.WcfService.MainModule - Invalid type owner for DynamicMethod.
+Extra Info: (null)
+10:44:34,836 [48] ERROR Host.WcfService.MainModule - Invalid type owner for DynamicMethod.
+Extra Info: (null)

@@ -1,0 +1,59 @@
+﻿11:00:03,775 [24] ERROR Host.WcfService.MainModule - Cannot find either column "dbo" or the user-defined function or aggregate "dbo.MotCua_GenSoBienNhan", or the name is ambiguous.
+Extra Info: (null)
+11:00:04,072 [24] ERROR Business.Services.MotCuaService - result = MotCua_HoSoTiepNhan_Ins(EdXml);
+Extra Info: (null)
+11:05:09,729 [28] ERROR Host.WcfService.MainModule - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Extra Info: (null)
+11:05:16,756 [28] ERROR Business.Services.MotCuaService - result = MotCua_HoSoTiepNhan_Ins(EdXml);
+Extra Info: (null)
+11:17:20,789 [13] ERROR Host.WcfService.MainModule - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Extra Info: (null)
+11:17:20,929 [13] ERROR Business.Services.MotCuaService - result = MotCua_HoSoTiepNhan_UpdByHoSoID(EdXml);
+Extra Info: (null)
+11:17:53,108 [12] ERROR Host.WcfService.MainModule - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Extra Info: (null)
+11:17:53,117 [12] ERROR Business.Services.MotCuaService - result = MotCua_HoSoTiepNhan_UpdByHoSoID(EdXml);
+Extra Info: (null)
+11:18:11,971 [6] ERROR Host.WcfService.MainModule - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+The statement has been terminated.
+Extra Info: (null)
+11:18:11,981 [6] ERROR Business.Services.MotCuaService - result = MotCua_HoSoTiepNhan_UpdByHoSoID(EdXml);
+Extra Info: (null)
+11:18:13,120 [44] ERROR Host.WcfService.MainModule - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+The statement has been terminated.
+Extra Info: (null)
+11:18:13,128 [44] ERROR Business.Services.MotCuaService - result = MotCua_HoSoTiepNhan_UpdByHoSoID(EdXml);
+Extra Info: (null)
+11:18:13,534 [40] ERROR Host.WcfService.MainModule - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+The statement has been terminated.
+Extra Info: (null)
+11:18:13,541 [40] ERROR Business.Services.MotCuaService - result = MotCua_HoSoTiepNhan_UpdByHoSoID(EdXml);
+Extra Info: (null)
+11:18:25,530 [8] ERROR Host.WcfService.MainModule - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Extra Info: (null)
+11:18:25,546 [8] ERROR Business.Services.MotCuaService - result = MotCua_HoSoTiepNhan_UpdByHoSoID(EdXml);
+Extra Info: (null)
+11:19:33,263 [8] ERROR Host.WcfService.MainModule - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Extra Info: (null)
+11:19:33,273 [8] ERROR Business.Services.MotCuaService - result = MotCua_HoSoTiepNhan_UpdByHoSoID(EdXml);
+Extra Info: (null)
+11:20:07,926 [44] ERROR Host.WcfService.MainModule - Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+Extra Info: (null)
+11:20:07,948 [44] ERROR Business.Services.MotCuaService - result = MotCua_HoSoTiepNhan_UpdByHoSoID(EdXml);
+Extra Info: (null)
+14:07:08,337 [75] ERROR Host.WcfService.MainModule - Input string was not in a correct format.
+Extra Info: (null)
+14:07:08,430 [75] ERROR Business.Services.MotCuaService - result = MotCua_HoSoTiepNhan_Ins(EdXml);
+Extra Info: (null)
+14:07:23,516 [77] ERROR Host.WcfService.MainModule - Input string was not in a correct format.
+Extra Info: (null)
+14:07:23,530 [77] ERROR Business.Services.MotCuaService - result = MotCua_HoSoTiepNhan_Ins(EdXml);
+Extra Info: (null)
+14:08:10,231 [75] ERROR Host.WcfService.MainModule - Input string was not in a correct format.
+Extra Info: (null)
+14:08:10,240 [75] ERROR Business.Services.MotCuaService - result = MotCua_HoSoTiepNhan_Ins(EdXml);
+Extra Info: (null)
+14:08:38,114 [77] ERROR Host.WcfService.MainModule - Input string was not in a correct format.
+Extra Info: (null)
+14:08:38,127 [77] ERROR Business.Services.MotCuaService - result = MotCua_HoSoTiepNhan_Ins(EdXml);
+Extra Info: (null)

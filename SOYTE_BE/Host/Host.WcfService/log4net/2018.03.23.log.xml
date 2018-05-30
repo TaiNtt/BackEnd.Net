@@ -1,0 +1,42 @@
+﻿09:54:13,130 [20] ERROR Host.WcfService.MainModule - Could not find stored procedure 'MotCua_E_TrangThaiHoSo_GetAll'.
+Extra Info: (null)
+09:54:13,273 [20] ERROR Business.Services.MotCuaService - Value cannot be null.
+Parameter name: source
+Extra Info: (null)
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Business.Services.MotCuaService.MotCua_E_TrangThaiHoSo_GetAll() in D:\SoYTe-DongNai\WIP\Program\Source\DesktopModules\MVC\SOYTE.BACKEND\SOYTE_BE\Business\Business.Services\MotCuaService.cs:line 1062
+09:55:20,604 [20] ERROR Host.WcfService.MainModule - Could not find stored procedure 'MotCua_E_TrangThaiHoSo_GetAll'.
+Extra Info: (null)
+09:55:20,620 [20] ERROR Business.Services.MotCuaService - Value cannot be null.
+Parameter name: source
+Extra Info: (null)
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Business.Services.MotCuaService.MotCua_E_TrangThaiHoSo_GetAll() in D:\SoYTe-DongNai\WIP\Program\Source\DesktopModules\MVC\SOYTE.BACKEND\SOYTE_BE\Business\Business.Services\MotCuaService.cs:line 1062
+10:11:52,857 [61] ERROR Host.WcfService.MainModule - Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=15784; handshake=0; 
+Extra Info: (null)
+10:11:52,857 [52] ERROR Host.WcfService.MainModule - Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=15784; handshake=0; 
+Extra Info: (null)
+10:11:52,857 [59] ERROR Host.WcfService.MainModule - Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=15784; handshake=0; 
+Extra Info: (null)
+10:11:52,857 [54] ERROR Host.WcfService.MainModule - Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=15784; handshake=0; 
+Extra Info: (null)
+10:11:52,891 [61] ERROR Host.WcfService.MainModule - Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=15784; handshake=0; 
+Extra Info: (null)
+10:11:52,980 [61] ERROR Business.Services.MotCuaService - Value cannot be null.
+Parameter name: source
+Extra Info: (null)
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Business.Services.MotCuaService.MotCua_E_TrangThaiHoSo_GetAll() in D:\SoYTe-DongNai\WIP\Program\Source\DesktopModules\MVC\SOYTE.BACKEND\SOYTE_BE\Business\Business.Services\MotCuaService.cs:line 1062
+10:11:52,979 [52] ERROR Business.Services.MotCuaService - Value cannot be null.
+Parameter name: source
+Extra Info: (null)
+System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Business.Services.MotCuaService.MotCua_HoSoTiepNhan_Search(String linhVucID, String thuTucID, String soBienNhan, String tuNgay, String denNgay, String hoTenNguoiNop, String soGiayTo, String trangThaiHoSoID, Int32 pageIndex, Int32 pageSize) in D:\SoYTe-DongNai\WIP\Program\Source\DesktopModules\MVC\SOYTE.BACKEND\SOYTE_BE\Business\Business.Services\MotCuaService.cs:line 328

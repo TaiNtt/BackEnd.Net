@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A736D045-DEF0-4249-BF98-8C9D0B495942}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Data.Core</RootNamespace>
+    <AssemblyName>Data.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Dapper.1.50.2\lib\net45\Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enum.cs" />
+    <Compile Include="Infrastructure\DapperExtensions.cs" />
+    <Compile Include="Infrastructure\IDisposable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\Base\ConnectDb.cs" />
+    <Compile Include="Repositories\CC_DuocRepository.cs" />
+    <Compile Include="Repositories\CC_Duoc_QTTHRepository.cs" />
+    <Compile Include="Repositories\CC_Duoc_TDCMRepository.cs" />
+    <Compile Include="Repositories\ChungTuKemTheoRepository.cs" />
+    <Compile Include="Repositories\DM_ChungTuKemTheoRepository.cs" />
+    <Compile Include="Repositories\DM_HinhThucToChucRepository.cs" />
+    <Compile Include="Repositories\DM_PhamViKinhDoanhRepository.cs" />
+    <Compile Include="Repositories\DM_PhongBanRepository.cs" />
+    <Compile Include="Repositories\DM_GoiYRepository.cs" />
+    <Compile Include="Repositories\DM_LyDoRepository.cs" />
+    <Compile Include="Repositories\E_LoaiGoiYRepository.cs" />
+    <Compile Include="Repositories\E_LoaiLyDoRepository.cs" />
+    <Compile Include="Repositories\E_NoiNhanKetQuaRepositoryy.cs" />
+    <Compile Include="Repositories\E_LoaiCapPhepRepository.cs" />
+    <Compile Include="Repositories\E_TrangThaiHoSoRepositoryy.cs" />
+    <Compile Include="Repositories\HoSoTheoDoiRepository.cs" />
+    <Compile Include="Repositories\CC_Duoc_CapLaiCTRepository.cs" />
+    <Compile Include="Repositories\CC_Duoc_CapLaiRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICC_DuocRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICC_Duoc_QTTHRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICC_Duoc_TDCMRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICC_Duoc_CapLaiCTRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICC_Duoc_CapLaiRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IChungTuKemTheoRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDM_ChungTuKemTheoRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDM_HinhThucToChucRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDM_PhamViKinhDoanhRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDM_PhongBanRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDM_GoiYRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDM_LyDoRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IE_LoaiGoiYRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IE_LoaiLyDoRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IE_NoiNhanKetQuaRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IE_LoaiCapPhepRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IE_TrangThaiHoSocRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IHoSoTheoDoiRepository.cs" />
+    <Compile Include="Repositories\LichSuBienDongRepository.cs" />
+    <Compile Include="Repositories\DM_QuyTrinh_Buoc_NguoiNhanRepository.cs" />
+    <Compile Include="Repositories\DM_QuyTrinh_BuocRepository.cs" />
+    <Compile Include="Repositories\DM_ThuTucRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ILichSuBienDongRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDM_QuyTrinh_Buoc_NguoiNhanRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDM_QuyTrinh_BuocRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDM_ThuTucRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IP_CongBoMyPham_ThanhPhanRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IP_CongBoMyPhamRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICN_LuuHanhMyPham_SanPhamRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICN_LuuHanhMyPhamRepository.cs" />
+    <Compile Include="Repositories\P_CongBoMyPhamRepository.cs" />
+    <Compile Include="Repositories\CN_LuuHanhMyPhamRepository.cs" />
+    <Compile Include="Repositories\XN_NoiDungQuangCaoRepository.cs" />
+    <Compile Include="Repositories\P_CongBoMyPham_ThanhPhanRepository.cs" />
+    <Compile Include="Repositories\CN_LuuHanhMyPham_SanPhamRepository.cs" />
+    <Compile Include="Repositories\XN_NoiDungQuangCao_SanPhamRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IXN_NoiDungQuangCaoRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IXN_NoiDungQuangCao_SanPhamRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IPD_Thuoc_GN_HTT_DSThuocRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IPD_Thuoc_GN_HTTRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICP_Thuoc_VienTroRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IPD_Thuoc_MethadoneRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICP_Thuoc_VienTro_DMThuocRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IPD_Thuoc_Methadone_TinhHinhRepository.cs" />
+    <Compile Include="Repositories\PD_Thuoc_GN_HTTRepository.cs" />
+    <Compile Include="Repositories\CP_Thuoc_VienTroRepository.cs" />
+    <Compile Include="Repositories\PD_Thuoc_MethadoneRepository.cs" />
+    <Compile Include="Repositories\CP_Thuoc_VienTro_DMThuocRepository.cs" />
+    <Compile Include="Repositories\TD_KeHoachDauThauRepository.cs" />
+    <Compile Include="Repositories\CV_XNKThuoc_PhiMauDichRepository.cs" />
+    <Compile Include="Repositories\PD_Thuoc_GN_HTT_DSThuocRepository.cs" />
+    <Compile Include="Repositories\PD_Thuoc_Methadone_TinhHinhRepository.cs" />
+    <Compile Include="Repositories\TD_KeHoachDauThau_DSGoiThauRepository.cs" />
+    <Compile Include="Repositories\CV_XNKThuoc_PhiMauDich_DSThuocRepository.cs" />
+    <Compile Include="Repositories\CN_GPPRepository.cs" />
+    <Compile Include="Repositories\CN_GDP_DSKhoRepository.cs" />
+    <Compile Include="Repositories\CN_GDPRepository.cs" />
+    <Compile Include="Repositories\DK_HoiThaoGioiThieuThuoc_DMThuocRepository.cs" />
+    <Compile Include="Repositories\DK_HoiThaoGioiThieuThuocRepository.cs" />
+    <Compile Include="Repositories\GiayPhepDoanKCB_ThanhVienRepository.cs" />
+    <Compile Include="Repositories\GiayPhepDoanKCBRepository.cs" />
+    <Compile Include="Repositories\GiayChungNhanBTGT_CapLaiCTRepository.cs" />
+    <Compile Include="Repositories\GiayChungNhanBTGT_CapLaiRepository.cs" />
+    <Compile Include="Repositories\GiayChungNhanBTGT_ThanhPhanRepository.cs" />
+    <Compile Include="Repositories\GiayChungNhanBTGTRepository.cs" />
+    <Compile Include="Repositories\GiayPhepHoatDongKCB_DSNhanSuRepository.cs" />
+    <Compile Include="Repositories\GiayChungNhanATSHRepository.cs" />
+    <Compile Include="Repositories\GiayChungNhanATSH_CapLaiRepository.cs" />
+    <Compile Include="Repositories\GiayChungNhanATSH_CapLaiCTRepository.cs" />
+    <Compile Include="Repositories\GiayChungNhanATSH_DSNhanSuRepository.cs" />
+    <Compile Include="Repositories\GiayChungNhanATSH_DSThietBiRepository.cs" />
+    <Compile Include="Repositories\DM_TrinhDoChuyenMonRepository.cs" />
+    <Compile Include="Repositories\DM_DuDieuKienHanhNgheRepository.cs" />
+    <Compile Include="Repositories\DM_QuanHuyenRepository.cs" />
+    <Compile Include="Repositories\DM_PhuongXaRepository.cs" />
+    <Compile Include="Repositories\DM_TinhThanhRepository.cs" />
+    <Compile Include="Repositories\DM_PhamViHoatDongChuyenMonRepository.cs" />
+    <Compile Include="Repositories\DM_NoiCapChungChiRepository.cs" />
+    <Compile Include="Repositories\GiayChungNhanLuongY_QTHanhNgheRepository.cs" />
+    <Compile Include="Repositories\GiayChungNhanLuongYRepository.cs" />
+    <Compile Include="Repositories\DM_LinhVucRepository.cs" />
+    <Compile Include="Repositories\GiayPhepHoatDongChuThapDo_CapLaiCTRepository.cs" />
+    <Compile Include="Repositories\GiayPhepHoatDongChuThapDo_CapLaiRepository.cs" />
+    <Compile Include="Repositories\GiayPhepHoatDongChuThapDoRepository.cs" />
+    <Compile Include="Repositories\GiayPhepHoatDongKCB_CapLaiRepository.cs" />
+    <Compile Include="Repositories\GiayPhepHoatDongKCBRepository.cs" />
+    <Compile Include="Repositories\GiayPhepHoatDongKCB_CapLaiCTRepository.cs" />
+    <Compile Include="Repositories\DangKyQCTrangThietBiRepository.cs" />
+    <Compile Include="Repositories\ChungChiHanhNgheY_DieuChinhCTRepository.cs" />
+    <Compile Include="Repositories\ChungChiHanhNgheY_CapLaiCTRepository.cs" />
+    <Compile Include="Repositories\ChungChiHanhNgheY_RutChungChiRepository.cs" />
+    <Compile Include="Repositories\ChungChiHanhNgheY_ThuHoiRepository.cs" />
+    <Compile Include="Repositories\ChungChiHanhNgheY_DieuChinhRepository.cs" />
+    <Compile Include="Repositories\ChungChiHanhNgheY_CapLaiRepository.cs" />
+    <Compile Include="Repositories\ChungChiHanhNgheY_QTTHRepository.cs" />
+    <Compile Include="Repositories\ChungChiHanhNgheY_TDCMRepository.cs" />
+    <Compile Include="Repositories\ChungChiHanhNgheYRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICV_XNKThuoc_PhiMauDichRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICV_XNKThuoc_PhiMauDich_DSThuocRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICN_GPPRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICN_GDP_DSKhoRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICN_GDPRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ITD_KeHoachDauThauRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ITD_KeHoachDauThau_DSGoiThauRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayChungNhanBTGTRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayChungNhanBTGT_ThanhPhanRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayChungNhanBTGT_CapLaiRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayChungNhanBTGT_CapLaiCTRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDK_HoiThaoGioiThieuThuocRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDK_HoiThaoGioiThieuThuoc_DMThuocRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayPhepHoatDongKCB_DSNhanSuRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayPhepDoanKCBRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayChungNhanATSHRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayChungNhanATSH_CapLaiRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayChungNhanATSH_CapLaiCTRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayPhepDoanKCB_ThanhVienRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayChungNhanATSH_DSThietBiRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayChungNhanATSH_DSNhanSuRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDM_TrinhDoChuyenMonRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDM_TinhThanhRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDM_QuanHuyenRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDM_PhuongXaRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDM_DuDieuKienHanhNgheRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDM_PhamViHoatDongChuyenMonRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDM_NoiCapChungChiRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayChungNhanLuongY_QTHanhNgheRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayChungNhanLuongYRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayPhepHoatDongChuThapDoRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayPhepHoatDongChuThapDo_CapLaiCTRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayPhepHoatDongKCB_CapLaiCTRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayPhepHoatDongChuThapDo_CapLaiRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayPhepHoatDongKCB_CapLaiRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGiayPhepHoatDongKCBRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDangKyQCTrangThietBiRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IChungChiHanhNgheYRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IChungChiHanhNgheY_DieuChinhRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IChungChiHanhNgheY_ThuHoiRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IChungChiHanhNgheY_TDCMRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IChungChiHanhNgheY_RutChungChiRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IChungChiHanhNgheY_QTTHRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IChungChiHanhNgheY_DieuChinhCTRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IChungChiHanhNgheY_CapLaiCTRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IQuaTrinhXuLyRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IKhongGiaiQuyetRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IKhongPheDuyetRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ITamNgungThamDinhRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IQuyTrinhRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IChungChiHanhNgheY_CapLaiRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDM_LinhVucRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IYeuCauBoSungRepository.cs" />
+    <Compile Include="Repositories\KhongGiaiQuyetRepository.cs" />
+    <Compile Include="Repositories\QuaTrinhXuLyRepository.cs" />
+    <Compile Include="Repositories\KhongPheDuyetRepository.cs" />
+    <Compile Include="Repositories\TamNgungThamDinhRepository.cs" />
+    <Compile Include="Repositories\QuyTrinhRepository.cs" />
+    <Compile Include="Repositories\YeuCauBoSungRepository.cs" />
+    <Compile Include="Repositories\WorkListRepository.cs" />
+    <Compile Include="Repositories\HoSoTiepNhanRepository.cs" />
+    <Compile Include="Repositories\DMCapDonViRepository.cs" />
+    <Compile Include="Repositories\DMDonViRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IWorkListRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IHoSoTiepNhanRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDMDonViRepository.cs" />
+    <Compile Include="Repositories\DMHoSoKemTheoRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDMHoSoKemTheoRepository.cs" />
+    <Compile Include="Repositories\TTHCDonViMappingRepository.cs" />
+    <Compile Include="Repositories\DuongDiQuyTrinhRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDMCapDonViRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ITTHCDonViMappingRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ILinhVucRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDuongDiQuyTrinhRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IParameterRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IThuTucHanhChinhBoRepository.cs" />
+    <Compile Include="Repositories\Base\IRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IThuTucHanhChinhRepository.cs" />
+    <Compile Include="Repositories\LinhVucRepository.cs" />
+    <Compile Include="Repositories\Base\Repository.cs" />
+    <Compile Include="Repositories\ParameterRepository.cs" />
+    <Compile Include="Repositories\ThuTucHanhChinhBoRepository.cs" />
+    <Compile Include="Repositories\ThuTucHanhChinhRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Business\Business.Entities\Business.Entities.csproj">
+      <Project>{edb15bba-07d6-41cf-a37e-adb0b3d98387}</Project>
+      <Name>Business.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Core.Common\Core.Common.csproj">
+      <Project>{1f772add-fbab-4c34-b98e-cfcb3de7d265}</Project>
+      <Name>Core.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

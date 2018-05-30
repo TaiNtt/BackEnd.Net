@@ -1,0 +1,44 @@
+﻿16:06:13,368 [17] ERROR Business.Services.MotCuaService - Object reference not set to an instance of an object.
+Extra Info: (null)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Business.Services.MotCuaService.MotCua_HoSoTiepNhan_TransFullProcess(HoSoTiepNhanFullProcessTrans hoSoTiepNhanFullProcessTrans) in D:\SoYTe-DongNai\WIP\Program\Source\DesktopModules\MVC\SOYTE.BACKEND\SOYTE_BE\Business\Business.Services\MotCuaService.cs:line 333
+16:06:13,538 [17] ERROR Business.Services.MotCuaService - Object reference not set to an instance of an object.
+Extra Info: (null)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Business.Services.MotCuaService.MotCua_HoSoTiepNhan_TransFullProcess(HoSoTiepNhanFullProcessTrans hoSoTiepNhanFullProcessTrans) in D:\SoYTe-DongNai\WIP\Program\Source\DesktopModules\MVC\SOYTE.BACKEND\SOYTE_BE\Business\Business.Services\MotCuaService.cs:line 333
+16:06:13,782 [17] ERROR Business.Services.MotCuaService - Object reference not set to an instance of an object.
+Extra Info: (null)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Business.Services.MotCuaService.MotCua_HoSoTiepNhan_TransFullProcess(HoSoTiepNhanFullProcessTrans hoSoTiepNhanFullProcessTrans) in D:\SoYTe-DongNai\WIP\Program\Source\DesktopModules\MVC\SOYTE.BACKEND\SOYTE_BE\Business\Business.Services\MotCuaService.cs:line 333
+16:09:54,486 [18] ERROR Business.Services.MotCuaService - Object reference not set to an instance of an object.
+Extra Info: (null)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Business.Services.MotCuaService.MotCua_HoSoTiepNhan_TransFullProcess(HoSoTiepNhanFullProcessTrans hoSoTiepNhanFullProcessTrans) in D:\SoYTe-DongNai\WIP\Program\Source\DesktopModules\MVC\SOYTE.BACKEND\SOYTE_BE\Business\Business.Services\MotCuaService.cs:line 333
+16:09:56,481 [18] ERROR Business.Services.MotCuaService - Object reference not set to an instance of an object.
+Extra Info: (null)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Business.Services.MotCuaService.MotCua_HoSoTiepNhan_TransFullProcess(HoSoTiepNhanFullProcessTrans hoSoTiepNhanFullProcessTrans) in D:\SoYTe-DongNai\WIP\Program\Source\DesktopModules\MVC\SOYTE.BACKEND\SOYTE_BE\Business\Business.Services\MotCuaService.cs:line 333
+16:09:56,508 [25] ERROR Business.Services.MotCuaService - Object reference not set to an instance of an object.
+Extra Info: (null)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Business.Services.MotCuaService.MotCua_HoSoTiepNhan_TransFullProcess(HoSoTiepNhanFullProcessTrans hoSoTiepNhanFullProcessTrans) in D:\SoYTe-DongNai\WIP\Program\Source\DesktopModules\MVC\SOYTE.BACKEND\SOYTE_BE\Business\Business.Services\MotCuaService.cs:line 333
+16:50:48,660 [10] ERROR Business.Services.MotCuaService - Object reference not set to an instance of an object.
+Extra Info: (null)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Business.Services.MotCuaService.MotCua_HoSoTiepNhan_TransFullProcess(HoSoTiepNhanFullProcessTrans hoSoTiepNhanFullProcessTrans) in D:\SoYTe-DongNai\WIP\Program\Source\DesktopModules\MVC\SOYTE.BACKEND\SOYTE_BE\Business\Business.Services\MotCuaService.cs:line 333
+16:52:46,522 [15] ERROR Business.Services.MotCuaService - Object reference not set to an instance of an object.
+Extra Info: (null)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Business.Services.MotCuaService.MotCua_HoSoTiepNhan_TransFullProcess(HoSoTiepNhanFullProcessTrans hoSoTiepNhanFullProcessTrans) in D:\SoYTe-DongNai\WIP\Program\Source\DesktopModules\MVC\SOYTE.BACKEND\SOYTE_BE\Business\Business.Services\MotCuaService.cs:line 333
+16:53:45,150 [15] ERROR Business.Services.MotCuaService - Object reference not set to an instance of an object.
+Extra Info: (null)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Business.Services.MotCuaService.MotCua_HoSoTiepNhan_TransFullProcess(HoSoTiepNhanFullProcessTrans hoSoTiepNhanFullProcessTrans) in D:\SoYTe-DongNai\WIP\Program\Source\DesktopModules\MVC\SOYTE.BACKEND\SOYTE_BE\Business\Business.Services\MotCuaService.cs:line 333
+16:55:04,658 [15] ERROR Business.Services.MotCuaService - Object reference not set to an instance of an object.
+Extra Info: (null)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Business.Services.MotCuaService.MotCua_HoSoTiepNhan_TransFullProcess(HoSoTiepNhanFullProcessTrans hoSoTiepNhanFullProcessTrans) in D:\SoYTe-DongNai\WIP\Program\Source\DesktopModules\MVC\SOYTE.BACKEND\SOYTE_BE\Business\Business.Services\MotCuaService.cs:line 333
+16:56:34,106 [15] ERROR Business.Services.MotCuaService - Object reference not set to an instance of an object.
+Extra Info: (null)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Business.Services.MotCuaService.MotCua_HoSoTiepNhan_TransFullProcess(HoSoTiepNhanFullProcessTrans hoSoTiepNhanFullProcessTrans) in D:\SoYTe-DongNai\WIP\Program\Source\DesktopModules\MVC\SOYTE.BACKEND\SOYTE_BE\Business\Business.Services\MotCuaService.cs:line 333

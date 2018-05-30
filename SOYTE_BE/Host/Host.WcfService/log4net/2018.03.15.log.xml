@@ -1,0 +1,6 @@
+﻿09:06:01,200 [29] ERROR Host.WcfService.MainModule - ExecuteScalar requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+Extra Info: (null)
+09:08:50,724 [41] ERROR Host.WcfService.MainModule - ExecuteScalar requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+Extra Info: (null)
+15:10:43,850 [74] ERROR Host.WcfService.MainModule - Procedure or function MotCua_HoSoTiepNhan_UpdByHoSoID has too many arguments specified.
+Extra Info: (null)
